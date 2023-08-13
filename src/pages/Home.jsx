@@ -1,12 +1,105 @@
-function Home () {
+import "../styles/stylesComp/home/home.css";
+import Html from "../../public/images/HTML5_logo_and_wordmark.svg.png";
+import Css from "../../public/images/CSS3_logo_and_wordmark.svg.png";
+import Js from "../../public/images/Unofficial_JavaScript_logo_2.svg.png";
+import React from "../../public/images/React-icon.svg.png";
+import Node from "../../public/images/nodejs-logo-D26404F360-seeklogo.com.png";
+import Sass from "../../public/images/2560px-Sass_Logo_Color.svg.png";
+import Mongodb from "../../public/images/mongodb.png";
+import Mysql from "../../public/images/Database-mysql.svg.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
+function Home() {
+  const skillsIcons = [
+    {
+      img: Html,
+      title: "HTML5",
+    },
+    {
+      img: Css,
+      title: "CSS3",
+    },
+    {
+      img: Js,
+      title: "Java Script",
+    },
+    {
+      img: React,
+      title: "React",
+    },
+    {
+      img: Node,
+      title: "Node",
+    },
+    {
+      img: Sass,
+      title: "SCSS",
+    },
+    {
+      img: Mongodb,
+      title: "MongoDB",
+    },
+    {
+      img: Mysql,
+      title: "MySQL",
+    },
+  ];
 
   return (
     <>
-      <h1>Hello world</h1>
-    </>
-  )
+      <section id="home" className="home">
+        <div className="container">
+          <div className="content">
+            <div className="home-main">
+              <div className="home-text">
+                <h1>Fullstack Developer</h1>
+                
+                <p>
+                  Hi, i am Matheus Ribeiro. A passionate Fullstack
+                  Developer based in Recife, Brazil. 📍
+                </p>
+                <span>
+                  <a
+                    aria-label="linkedin"
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/matheusfribeiro/"
+                  >
+                    <FontAwesomeIcon icon={faLinkedin} />
+                  </a>
+                  <a
+                    aria-label="github"
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://github.com/matheusfribeiro"
+                  >
+                    <FontAwesomeIcon icon={faGithub} />
+                  </a>
+                </span>
+              </div>
 
+              <div className="home-img"></div>
+            </div>
+
+            {/*  */}
+            <div className="skills">
+              <p>Tech Stack</p>
+              <div className="logos">
+                <ul>
+                  {skillsIcons.map((icon) => (
+                    <li key={icon.title}>
+                      <img src={icon.img} title={icon.title} alt="skill-icon" />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }
 
-export default Home
+export default Home;
