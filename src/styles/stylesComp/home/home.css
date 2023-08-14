@@ -165,10 +165,10 @@ body {
     gap: 1.6rem;
   }
 }
-.home-text span i {
+.home-text span svg {
   transition: all 0.2s;
 }
-.home-text span i:hover {
+.home-text span svg:hover {
   color: #147efb;
 }
 .home-text img {
