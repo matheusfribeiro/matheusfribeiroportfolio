@@ -1,12 +1,12 @@
 import "../styles/stylesComp/home/home.css";
-import Html from "../../public/images/HTML5_logo_and_wordmark.svg.png";
-import Css from "../../public/images/CSS3_logo_and_wordmark.svg.png";
-import Js from "../../public/images/Unofficial_JavaScript_logo_2.svg.png";
-import React from "../../public/images/React-icon.svg.png";
-import Node from "../../public/images/nodejs-logo-D26404F360-seeklogo.com.png";
-import Sass from "../../public/images/2560px-Sass_Logo_Color.svg.png";
-import Mongodb from "../../public/images/mongodb.png";
-import Mysql from "../../public/images/Database-mysql.svg.png";
+import Html from "../../images/HTML5_logo_and_wordmark.svg.png";
+import Css from "../../images/CSS3_logo_and_wordmark.svg.png";
+import Js from "../../images/Unofficial_JavaScript_logo_2.svg.png";
+import React from "../../images/React-icon.svg.png";
+import Node from "../../images/nodejs-logo-D26404F360-seeklogo.com.png";
+import Sass from "../../images/2560px-Sass_Logo_Color.svg.png";
+import Mongodb from "../../images/mongodb.png";
+import Mysql from "../../images/Database-mysql.svg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -53,10 +53,10 @@ function Home() {
           <div className="content">
             <div className="home-main">
               <div className="home-text">
-                <h1>Fullstack Developer</h1>
+                <h1>Fullstack Web Developer</h1>
                 
                 <p>
-                  Hi, i am Matheus Ribeiro. A passionate Fullstack
+                  Hi, i am Matheus Ribeiro. A passionate Fullstack Web
                   Developer based in Recife, Brazil. 📍
                 </p>
                 <span>
