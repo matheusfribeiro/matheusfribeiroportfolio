@@ -87,7 +87,33 @@
     display: flex;
     gap: 1.3rem;
     margin: 2.5rem 0;
+    width: fit-content;
     cursor: pointer;
+
+    .cv {
+      display: flex;
+      align-items: center;
+      background: $black-shade;
+      backdrop-filter: blur(1.5px);
+      padding: 0.5rem 0.75rem;
+      border-radius: 12px 1px;
+      margin: 0.5rem 0px;
+      transition: all 0.3s ease-in-out 0s;
+      
+      a {
+        color: $gray-bg-color;
+        font-size: 1.5rem;
+        text-decoration: none;
+        
+        
+      }
+
+      &:hover {
+        background: $header-color;
+        
+      }
+      
+    }
 
     a {
       font-size: 3rem;
@@ -99,6 +125,7 @@
       margin-top: -2rem;
       margin-bottom: 4rem;
       gap: 1.6rem;
+      width: 100%;
     }
 
     svg {

@@ -46,6 +46,8 @@ function Home() {
     },
   ];
 
+  const cvPdfUrl = '../../public/Curriculo - Matheus F. Ribeiro.pdf'
+
   return (
     <>
       <section id="home" className="home">
@@ -76,7 +78,13 @@ function Home() {
                   >
                     <FontAwesomeIcon icon={faGithub} />
                   </a>
+                  <div className="cv">
+                    <a href={cvPdfUrl} download>
+                      Download CV
+                    </a>
+                  </div>
                 </span>
+                
               </div>
 
               <div className="home-img"></div>
