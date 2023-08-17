@@ -1,8 +1,11 @@
 import { useState } from "react";
 import "../styles/stylesComp/navbar/navbar.css";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 function Navbar() {
   const [hamburger, setHamburger] = useState(false);
+  const { t } = useTranslation()
 
   const hamburgerMenu = () => {
     setHamburger(!hamburger);
@@ -14,19 +17,19 @@ function Navbar() {
 
   const navlinks = [
     {
-      name: "Home",
+      name: t("nav.home"),
       link: "#home",
     },
     {
-      name: "About",
+      name:t("nav.about"),
       link: "#about",
     },
     {
-      name: "Projects",
+      name: t("nav.projects"),
       link: "#projects",
     },
     {
-      name: "Contact",
+      name: t("nav.contact"),
       link: "#contact",
     },
   ];
@@ -36,9 +39,11 @@ function Navbar() {
     <>
       <nav>
         <h3 onClick={pageUp} className="logo">
-          Matheus F. Ribeiro
+          Matheus Ribeiro
+          
         </h3>
         <ul>
+          <LanguageSwitcher hideOnMobile={true} />
           {navlinks.map((item) => (
             <li key={item.name}>
               <a href={item.link}>{item.name}</a>
@@ -62,6 +67,7 @@ function Navbar() {
               <a href={item.link}>{item.name}</a>
             </li>
           ))}
+          <LanguageSwitcher />
         </ul>
       </div>
     </>

@@ -1,13 +1,15 @@
+import { useTranslation } from "react-i18next";
 import "../styles/stylesComp/about/about.css";
 
 function About() {
+  const { t } = useTranslation()
   return (
     <>
       <section className="about" id="about">
         <div className="container">
           <div className="about-content">
             <div className="techstack-side">
-              <h3>My Tech Stack</h3>
+              <h3>{t("about.techstack")}</h3>
 
               <div className="stack-space">
                 <span style={{ marginRight: "25px" }}>Front-End</span>
@@ -48,21 +50,12 @@ function About() {
               </div>
             </div>
             <div className="text-side">
-              <h3>About me</h3>
+              <h3>{t("about.aboutme")}</h3>
               <h4>
-                A Fullstack Web Developer <br /> based in Recife,
-                Brazil 📍
+                {t("about.title")} 📍
               </h4>
               <p>
-                As a Fullstack Developer, i possess an impressive arsenal of
-                skills in HTML, CSS, JavaScript, React, Node, and SCSS.<br></br>{" "}
-                I excel in designing and maintaining responsive websites that
-                offer a smooth user experience. My expertise lies in crafting
-                dynamic, engaging interfaces through writing clean and optimized
-                code and utilizing cutting-edge development tools and
-                techniques. I am also a team player who thrives in collaborating
-                with cross-functional teams to produce outstanding web
-                applications.
+                {t("about.description")}
               </p>
             </div>
           </div>

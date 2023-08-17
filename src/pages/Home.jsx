@@ -9,8 +9,10 @@ import Mongodb from "../../images/mongodb.png";
 import Mysql from "../../images/Database-mysql.svg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { useTranslation } from "react-i18next";
 
 function Home() {
+  const { t } = useTranslation();
   const skillsIcons = [
     {
       img: Html,
@@ -22,7 +24,7 @@ function Home() {
     },
     {
       img: Js,
-      title: "Java Script",
+      title: "JavaScript",
     },
     {
       img: React,
@@ -55,11 +57,10 @@ function Home() {
           <div className="content">
             <div className="home-main">
               <div className="home-text">
-                <h1>Fullstack Web Developer</h1>
+                <h1>{t('home.title')}</h1>
                 
                 <p>
-                  Hi, i am Matheus Ribeiro. A passionate Fullstack Web
-                  Developer based in Recife, Brazil. 📍
+                  {t('home.subtitle')} 📍
                 </p>
                 <span>
                   <a
@@ -80,7 +81,7 @@ function Home() {
                   </a>
                   <div className="cv">
                     <a href={cvPdfUrl} download>
-                      Download CV
+                      {t("home.download")} CV
                     </a>
                   </div>
                 </span>
@@ -92,7 +93,7 @@ function Home() {
 
             {/*  */}
             <div className="skills">
-              <p>Tech Stack</p>
+              <p>{t("home.techstack")}</p>
               <div className="logos">
                 <ul>
                   {skillsIcons.map((icon) => (

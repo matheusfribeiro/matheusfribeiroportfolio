@@ -1,5 +1,37 @@
 {
-  "translation": {
-    "nav": "test for echo"
-  }
+  "selectyourlanguage": "Selecione sua linguagem",
+
+  "nav": {
+    "home": "Home",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+
+  "home": {
+    "title": "Desenvolvedor Web Fullstack",
+    "subtitle": "Olá, me chamo Matheus Ribeiro. Sou um desenvolvedor Fullstack localizado em Recife, Brasil",
+    "download": "Baixar",
+    "techstack": "Tecnologias"
+  },
+
+  "about": {
+    "techstack": "Minhas tecnologias",
+    "aboutme": "Sobre mim",
+    "title": "Um desenvolvedor Fullstack localizado em Recife, Brasil",
+    "description": "Como Desenvolvedor Fullstack, possuo um conjunto de habilidades em HTML, CSS, JavaScript, React, Node e SCSS. Me empenho em projetar e manter sites responsivos que oferecem uma experiência de usuário fluída. Minha expertise está em criar interfaces dinâmicas e envolventes através da escrita de código limpo e otimizado, utilizando ferramentas e técnicas de desenvolvimento de ponta. Também sou um membro colaborativo da equipe, que prospera na colaboração com times multifuncionais para produzir excelentes aplicações web."
+  },
+
+  "projects": {
+    "title": "Cada projeto é uma peça única da jornada"
+  },
+
+  "contact": {
+    "title": "Contato",
+    "subtitle": "Sinta-se a vontade para me mandar uma mensagem!",
+    "location": "Localização",
+    "city": "Recife, Brasil"
+  },
+
+  "copyright": "Todos os direitos reservados"
 }

@@ -1,17 +1,19 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelopeOpenText, faMapLocationDot } from "@fortawesome/free-solid-svg-icons";
 import "../styles/stylesComp/contact/contact.css";
+import { useTranslation } from "react-i18next";
 
 
 function Contact() {
+  const { t } = useTranslation()
   return (
     <>
       <section id="contact" className="contact">
         <div className="container">
           <div className="contact__content">
             <div className="contact__title">
-              <p>contact</p>
-              <h3>Feel free to send me a message! 👇</h3>
+              <p>{t("contact.title")}</p>
+              <h3>{t("contact.subtitle")} 👇</h3>
             </div>
             <div className="contact__icons">
               <div className="contact__icon-box">
@@ -19,8 +21,8 @@ function Contact() {
                   <FontAwesomeIcon icon={faMapLocationDot} />
                 </span>
                 <div className="contact__info">
-                  <h3>Location</h3>
-                  <p>Recife, Brazil</p>
+                  <h3>{t("contact.location")}</h3>
+                  <p>{t("contact.city")}</p>
                 </div>
               </div>
 
@@ -29,7 +31,7 @@ function Contact() {
                   <FontAwesomeIcon icon={faEnvelopeOpenText} />
                 </span>
                 <div className="contact__info">
-                  <h3>Mail</h3>
+                  <h3>Email</h3>
                   <a href="mailto:matheusfribeiro2112@gmail.com">
                     matheusfribeiro2112@gmail.com
                   </a>

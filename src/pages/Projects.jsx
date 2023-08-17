@@ -1,14 +1,16 @@
 import "../styles/stylesComp/projects/projects.css"
 import ProBox from "../components/ProBox";
+import { useTranslation } from "react-i18next";
 
 function Projects() {
+  const { t } = useTranslation()
   return (
     <>
       <section id="projects" className="project">
         <div className="container">
           <div className="project-content">
             <p>portfolio</p>
-            <h3>Each project is a unique piece of development 🧩</h3>
+            <h3>{t("projects.title")} 🧩</h3>
             <div className="projects-grid">
               <ProBox
                 title="Car Rental"

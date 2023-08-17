@@ -1,0 +1,46 @@
+@import "../../global/boilerplate";
+
+.language-switcher {
+  display: flex;
+  align-items: center;
+
+
+  span {
+    margin-right: 10px;
+    font-size: 1.4rem;
+
+    @media (max-width: 900px) {
+      display: none; 
+      
+    }
+  }
+
+  button {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    background: none;
+    border: none;
+    margin: 0 5px;
+
+    img {
+      height: 30px;
+      width: 50px;
+      margin: 0 auto;
+    }
+
+    span {
+      font-size: 1.3rem;
+      margin: 5px auto 0 auto;
+      
+    }
+  }
+
+  
+}
+
+.hide-on-mobile {
+  @media (max-width: 900px) {
+    display: none;
+  }
+}

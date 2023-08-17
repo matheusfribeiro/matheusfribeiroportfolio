@@ -1,5 +1,37 @@
 {
-  "translation": {
-    "nav": "test for echo"
-  }
+  "selectyourlanguage": "Select your language",
+
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+
+  "home": {
+    "title": "Fullstack Web Developer",
+    "subtitle": "Hi, i am Matheus Ribeiro. A passionate Fullstack web developer based in Recife, Brazil",
+    "download": "Download",
+    "techstack": "Tech Stack"
+  },
+
+  "about": {
+    "techstack": "My tech stack",
+    "aboutme": "About me",
+    "title": "A Fullstack Web Developer based in Recife, Brazil",
+    "description": "As a Fullstack Developer, i possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Node, and SCSS.I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications."
+  },
+
+  "projects": {
+    "title": "Each project is a unique piece of development"
+  },
+
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Feel free to send me a message!",
+    "location": "Location",
+    "city": "Recife, Brazil"
+  },
+
+  "copyright": "All rights reserved"
 }
