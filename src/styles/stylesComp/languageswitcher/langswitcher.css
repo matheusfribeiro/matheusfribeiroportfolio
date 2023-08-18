@@ -63,31 +63,17 @@ body {
   display: flex;
   align-items: center;
 }
-.language-switcher span {
-  margin-right: 10px;
-  font-size: 1.4rem;
+.language-switcher .dropdown {
+  position: relative;
 }
-@media (max-width: 900px) {
-  .language-switcher span {
-    display: none;
-  }
-}
-.language-switcher button {
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-  background: none;
-  border: none;
-  margin: 0 5px;
-}
-.language-switcher button img {
-  height: 30px;
-  width: 50px;
-  margin: 0 auto;
-}
-.language-switcher button span {
-  font-size: 1.3rem;
-  margin: 5px auto 0 auto;
+.language-switcher .dropdown .dropdown-menu {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 0.25rem);
+  background-color: white;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px;
 }
 
 @media (max-width: 900px) {
