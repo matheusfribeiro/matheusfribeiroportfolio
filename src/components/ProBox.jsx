@@ -25,7 +25,7 @@ function ProBox({
             <img
               src={img}
               alt="website"
-              loading="lazy"
+              loading="eager"
               style={{
                 transform: scroll ? `translateY(${scrollY})` : "translateY(0%)",
                 transition: "transform 10s ease-in-out",
