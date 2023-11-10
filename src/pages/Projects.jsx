@@ -13,57 +13,56 @@ function Projects() {
             <h3>{t("projects.title")} 🧩</h3>
             <div className="projects-grid">
               <ProBox
-                title="Car Rental"
-                img={''}
-                description="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
-                techno1="React"
-                techno2="SCSS"
-                code="https://github.com/stefvndev/car-rental"
-                demo="https://car-rental-ten.vercel.app/"
+                title="Kings Tips Bets"
+                img={'/kingstipslp.gif'}
+                description={t('projects.kingstipsdesc')}
+                techno1="NextJS"
+                techno2="React"
+                code="https://github.com/matheusfribeiro/kingstips"
+                demo="https://kingstips.com.br/"
                 scrollY="-83%"
-                icon="🚗"
+                icon="$"
               />
 
               <ProBox
-                title="coindom"
-                img={''}
-                description="Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time."
-                techno1="React"
+                title="Dictionary Web App"
+                img={'/dictionaryapp.gif'}
+                description={t("projects.dictionarydesc")}
+                techno1="JavaScript"
                 techno2="SCSS"
-                code="https://github.com/stefvndev/coindom-crypto"
-                demo="https://coindom-crypto-search.vercel.app/"
+                code="https://github.com/matheusfribeiro/dictionarywebapp"
+                demo="https://matheusfribeiro.github.io/dictionarywebapp/"
                 scrollY="-74%"
-                icon="🪙"
+                icon="📖"
                 cName="reversed-proj"
               />
 
               <ProBox
-                title="gymate"
-                img={''}
-                description="A gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users achieve their fitness goals."
-                techno1="React"
-                techno2="Tailwind CSS"
-                code="https://github.com/stefvndev/Gymate"
-                demo="https://gymate-iota.vercel.app/"
+                title="The Recipe Book"
+                img={'/therecipebook.gif'}
+                description={t("projects.therecipebookdesc")}
+                techno1="NodeJS"
+                techno2="Express"
+                code="https://github.com/matheusfribeiro/TheRecipeBook"
+                demo=""
                 scrollY="-89%"
-                icon="🏋️"
+                icon="🍽️"
               />
 
               <ProBox
-                title="Raouf Ecommerce"
-                img={'Raouf'}
-                description="With a focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need."
-                techno1="React"
-                techno2="Vanila CSS"
-                code="https://github.com/stefvndev/Minimalist-E-commerce"
-                demo="https://minimalist-e-commerce.vercel.app/"
+                title="The Bet Crawler"
+                img={'/thebetcrawler.gif'}
+                description={t("projects.thebetcrawlerdesc")}
+                techno1="Puppeteer"
+                techno2="Express"
+                code="https://github.com/matheusfribeiro/TheBetCrawler"
                 scrollY="-71%"
                 icon="🛒"
                 cName="reversed-proj"
               />
             </div>
           </div>
-          {/* <h2 className="new-projects">New projects coming soon.. 🤠</h2> */}
+          
         </div>
       </section>
     </>

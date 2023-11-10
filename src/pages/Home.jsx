@@ -48,7 +48,7 @@ function Home() {
     },
   ];
 
-  const cvPdfUrl = '../../public/Curriculo - Matheus F. Ribeiro.pdf'
+  const cvPdfUrl = '/Curriculo - Matheus F. Ribeiro.pdf'
 
   return (
     <>

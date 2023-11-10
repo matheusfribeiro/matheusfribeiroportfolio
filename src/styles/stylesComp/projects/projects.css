@@ -141,7 +141,7 @@ body {
 }
 .projects-grid .pro__img img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .projects-grid .pro__text {
   display: flex;

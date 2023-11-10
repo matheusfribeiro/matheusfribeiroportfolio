@@ -25,6 +25,7 @@ function ProBox({
             <img
               src={img}
               alt="website"
+              loading="lazy"
               style={{
                 transform: scroll ? `translateY(${scrollY})` : "translateY(0%)",
                 transition: "transform 10s ease-in-out",
@@ -47,10 +48,12 @@ function ProBox({
             <a target="_blank" href={code} rel="noreferrer">
               Code <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a target="_blank" href={demo} rel="noreferrer">
-              Live Demo
-              <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-            </a>
+            {demo && (
+              <a target="_blank" href={demo} rel="noreferrer">
+                Deploy
+                <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+              </a>
+            )}
           </div>
         </div>
       </div>

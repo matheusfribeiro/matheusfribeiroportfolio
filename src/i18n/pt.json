@@ -23,7 +23,11 @@
   },
 
   "projects": {
-    "title": "Cada projeto é uma peça única da jornada"
+    "title": "Cada projeto é uma peça única da jornada",
+    "kingstipsdesc": "Uma plataforma online projetada para indivíduos interessados em apostas esportivas, oferecendo insights valiosos, previsões de especialistas e conselhos estratégicos para aprimorar sua experiência de apostas.",
+    "dictionarydesc": "Nesse aplicativo, você pode procurar por qualquer palavra, ver a fonética e escutar a pronúncia correta.",
+    "therecipebookdesc": "Uma plataforma projetada para organização de receitas. Suas funcionalidades incluem uma ampla variedade de criações e armazenamento de receitas. Facilitando a categorização e permitindo ao usuário explorar, salvar e modificar receitas.",
+    "thebetcrawlerdesc": "Esta ferramenta automatizada cria combinações aleatórias a partir das probabilidades das partidas. Utilizando algoritmos avançados, gera diversas combinações de apostas e as coloca automaticamente."
   },
 
   "contact": {

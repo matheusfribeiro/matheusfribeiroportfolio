@@ -23,7 +23,11 @@
   },
 
   "projects": {
-    "title": "Each project is a unique piece of development"
+    "title": "Each project is a unique piece of development",
+    "kingstipsdesc": "An online platform designed for individuals interested in sports betting, providing valuable insights, expert predictions, and strategic advice to enhance their betting experience.",
+    "dictionarydesc": "In this app you can search for any word, see the phonetics of it and listen to the right pronunciation.",
+    "therecipebookdesc": "The recipe book app is a platform designed for seamless recipe organization. Its features include a diverse array of creations, customizable storage for recipes. The app facilitates easy categorization, allowing users to explore, save, and modify recipes",
+    "thebetcrawlerdesc": "This automated tool creates random combinations from match odds. Using advanced algorithms, it generates diverse bet combinations and places them automatically."
   },
 
   "contact": {
